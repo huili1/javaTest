@@ -8,7 +8,7 @@ public class ExceptionTest {
             k=j/i;
             System.out.println(k);
         }
-        catch (Exception e){
+        catch (ArithmeticException e){
             System.out.println("cannot divide by 0 "+e);
         }
 
