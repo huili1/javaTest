@@ -6,10 +6,11 @@ public class ExceptionTest {
         int j=19, i=0;
         try{
             k=j/i;
-            System.out.println(k);
+            //System.out.println(k);
         }
         catch (ArithmeticException e){
-            System.out.println("cannot divide by 0 "+e);
+            e.printStackTrace();
+            //System.out.println("cannot divide by 0 "+e);
         }
 
 
