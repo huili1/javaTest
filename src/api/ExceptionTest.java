@@ -6,7 +6,7 @@ public class ExceptionTest {
         int j=19, i=0;
         try{
             k=j/i;
-            //System.out.println(k);
+            System.out.println("Test security");
         }
         catch (ArithmeticException e){
             e.printStackTrace();
